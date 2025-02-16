@@ -10,6 +10,10 @@ body {
     font-family: "Inter"; /*Шрифт*/
 }
 .header {
+    width: 100%;
+    height: 130px;
+}
+.nav {
     text-align: center; /*выравнивание по центру*/
     margin-top: 100px; /*отступ сверху*/
     font-weight: 800; /*толщина шрифта*/
@@ -17,21 +21,24 @@ body {
     color: black; /*цвет*/
     text-shadow: /*Тень от букв*/
     0 0 50px;
-    animation: fadeInOut 3s 1; /*Анимация заголовка (проигрывается один раз при перезагрузке)*/
+    animation: fadeInOut 3s infinite; /*Анимация заголовка (проигрывается один раз при перезагрузке)*/
 }
 @keyframes fadeInOut { /*Ключевые кадры анимации*/
-    0% {
-        font-size: 10px; 
+   0% {
+        padding-top: 50px; 
         opacity: 0; /*прозрачность элемента*/
     }
     50% {
+        padding-top: 100px;
         opacity: 1;
     }
     100% {
-        font-size: 70px;
+        opacity: 0;
+        padding-top: 50px;
     }
 }
 p {
+    margin-top: 100px;
     text-align: center; /*Расположение по центру*/
     font-weight: 400; /*Толщина шрифта*/
     font-size: 30px; /*Размер шрифта*/
@@ -46,7 +53,7 @@ p {
     color: black;
     text-shadow: 
     0 0 15px ;
-    animation: listAnim 2s 1; /*Снова анимация, но уже на список*/
+    animation: listAnim 3s 1; /*Снова анимация, но уже на список*/
 }
 @keyframes listAnim { /*И снова ключевые кадры*/
     0% {
