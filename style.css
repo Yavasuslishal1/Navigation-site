@@ -12,10 +12,10 @@ body {
 .header {
     width: 100%;
     height: 130px;
+    
 }
 .nav {
     text-align: center; /*выравнивание по центру*/
-    margin-top: 100px; /*отступ сверху*/
     font-weight: 800; /*толщина шрифта*/
     font-size: 70px; /*размер шрифта*/
     color: black; /*цвет*/
