@@ -1,0 +1,104 @@
+
+body {
+    background-image: url(back1.jpg); /*Настройка фона*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;
+    background-attachment:fixed; 
+    margin: 0;
+    font-family: "Inter"; /*Шрифт*/
+}
+.header {
+    text-align: center; /*выравнивание по центру*/
+    margin-top: 100px; /*отступ сверху*/
+    font-weight: 800; /*толщина шрифта*/
+    font-size: 70px; /*размер шрифта*/
+    color: black; /*цвет*/
+    text-shadow: /*Тень от букв*/
+    0 0 50px;
+    animation: fadeInOut 3s 1; /*Анимация заголовка (проигрывается один раз при перезагрузке)*/
+}
+@keyframes fadeInOut { /*Ключевые кадры анимации*/
+    0% {
+        font-size: 10px; 
+        opacity: 0; /*прозрачность элемента*/
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        font-size: 70px;
+    }
+}
+p {
+    text-align: center; /*Расположение по центру*/
+    font-weight: 400; /*Толщина шрифта*/
+    font-size: 30px; /*Размер шрифта*/
+    color: black;
+    text-shadow: /*Тень от букв*/
+    0 0 15px ;
+}
+.list {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    text-shadow: 
+    0 0 15px ;
+    animation: listAnim 2s 1; /*Снова анимация, но уже на список*/
+}
+@keyframes listAnim { /*И снова ключевые кадры*/
+    0% {
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+li {
+    text-align: center;
+    margin-top: 20px; /*отступ сверху*/
+    list-style-type: none; /*состояние точек рядом с элементами списка (отключены)*/ 
+}
+a {
+    color: black; 
+    transition: 0.5s; /*плавный переход между состоянием элемента (1ое состояние)*/
+    text-decoration: none; 
+}
+a:hover {
+    color: rgb(255, 255, 255); /*второе состояние (при наведении курсора цвет ссылки поменялся на белый)*/
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
