@@ -36,17 +36,9 @@ body {
         opacity: 0;
         padding-top: 50px;
     }
-}
-p {
-    margin-top: 100px;
-    text-align: center; /*Расположение по центру*/
-    font-weight: 400; /*Толщина шрифта*/
-    font-size: 30px; /*Размер шрифта*/
-    color: black;
-    text-shadow: /*Тень от букв*/
-    0 0 15px ;
-}
+}  
 .list {
+    margin-top: 100px;
     text-align: center;
     font-weight: 400;
     font-size: 30px;
