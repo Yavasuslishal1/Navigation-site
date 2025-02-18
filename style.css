@@ -21,11 +21,11 @@ body {
     color: black; /*цвет*/
     text-shadow: /*Тень от букв*/
     0 0 50px;
-    animation: fadeInOut 3s infinite; /*Анимация заголовка (проигрывается один раз при перезагрузке)*/
+    animation: fadeInOut 3s infinite; /*Анимация заголовка (проигрывается бесконечно)*/
 }
 @keyframes fadeInOut { /*Ключевые кадры анимации*/
    0% {
-        padding-top: 50px; 
+        padding-top: 50px; /*отступ сверху внутри блока*/
         opacity: 0; /*прозрачность элемента*/
     }
     50% {
@@ -38,14 +38,14 @@ body {
     }
 }  
 .list {
-    margin-top: 100px;
+    margin-top: 100px; /*отступ сверху*/
     text-align: center;
     font-weight: 400;
     font-size: 30px;
     color: black;
     text-shadow: 
     0 0 15px ;
-    animation: listAnim 3s 1; /*Снова анимация, но уже на список*/
+    animation: listAnim 3s 1; /*Снова анимация, но уже на список, проигрываеся один раз*/
 }
 @keyframes listAnim { /*И снова ключевые кадры*/
     0% {
