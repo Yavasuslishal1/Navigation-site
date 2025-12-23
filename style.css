@@ -94,7 +94,7 @@ a:hover {
 }
 @media (min-width: 769px) {
     .nav {
-        font-weight: 700;
+        font-weight: 300;
         font-size: 60px;
     }
     .list {
@@ -107,7 +107,7 @@ a:hover {
 }
 @media (min-width: 2560px) {
     .nav {
-        font-weight: 700;
+        font-weight: 300;
         font-size: 70px;
     }
     .list {
@@ -118,6 +118,7 @@ a:hover {
         text-align: center;
     }
 }
+
 
 
 
